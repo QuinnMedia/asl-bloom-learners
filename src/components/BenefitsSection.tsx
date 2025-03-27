@@ -17,7 +17,7 @@ const benefits = [
   },
   {
     icon: (
-      <svg className="w-12 h-12 text-asl-peach" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg className="w-12 h-12 text-asl-dark-peach" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
       </svg>
     ),
@@ -78,7 +78,7 @@ const BenefitsSection: React.FC = () => {
       <div className="container mx-auto px-6 md:px-10">
         <ScrollReveal>
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-asl-blue rounded-full text-sm font-medium mb-4">
+            <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-asl-dark-gray rounded-full text-sm font-medium mb-4">
               Our Features
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -127,7 +127,7 @@ const BenefitsSection: React.FC = () => {
                 </div>
                 <div className="ml-3 text-left">
                   <div className="font-medium text-gray-900">Alex T.</div>
-                  <div className="text-sm text-asl-blue">ASL Student</div>
+                  <div className="text-sm text-asl-dark-gray">ASL Student</div>
                 </div>
               </div>
             </div>

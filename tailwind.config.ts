@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -26,11 +27,11 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: '#ffe1bb', // Warm Peach as primary
-					foreground: '#333333'
+					foreground: '#333333' // Dark gray for good contrast
 				},
 				secondary: {
 					DEFAULT: '#7be0e6', // Soft Blue as secondary
-					foreground: '#333333'
+					foreground: '#333333' // Dark gray for good contrast
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -41,7 +42,7 @@ export default {
 					foreground: 'hsl(var(--muted-foreground))'
 				},
 				accent: {
-					DEFAULT: '#feae73', // Dark Peach as accent
+					DEFAULT: '#e07e34', // Darker version of peach for better contrast
 					foreground: '#ffffff'
 				},
 				popover: {
@@ -65,10 +66,10 @@ export default {
 				asl: {
 					blue: '#7be0e6',
 					peach: '#ffe1bb',
-					'dark-peach': '#feae73',
+					'dark-peach': '#e07e34', // Darkened for better contrast
 					'light-blue': '#8BB8FF',
 					'light-peach': '#FFD0BC',
-					mint: '#7CEBC6',
+					mint: '#52c29f', // Darkened mint for better contrast
 					'light-mint': '#C8F8E7',
 					gray: '#F5F7FA',
 					'dark-gray': '#4A5568'

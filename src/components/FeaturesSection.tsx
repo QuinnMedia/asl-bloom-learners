@@ -16,7 +16,7 @@ const features = [
   },
   {
     icon: (
-      <svg className="w-12 h-12 text-asl-peach" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg className="w-12 h-12 text-asl-dark-peach" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
       </svg>
     ),
@@ -57,7 +57,7 @@ const FeaturesSection: React.FC = () => {
       <div className="container mx-auto px-6 md:px-10">
         <ScrollReveal>
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-asl-blue rounded-full text-sm font-medium mb-4">
+            <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-asl-dark-gray rounded-full text-sm font-medium mb-4">
               Why Choose ASL Bloom
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">

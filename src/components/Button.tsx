@@ -14,10 +14,10 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const variants = {
       primary: 'bg-asl-peach text-gray-800 hover:bg-asl-peach/90 shadow-md hover:shadow-lg',
       secondary: 'bg-asl-blue text-gray-800 border border-asl-blue hover:bg-asl-blue/90 shadow-sm hover:shadow-md',
-      outline: 'bg-transparent border border-asl-peach text-gray-800 hover:bg-asl-peach/10',
+      outline: 'bg-transparent border border-asl-dark-peach text-gray-800 hover:bg-asl-peach/10',
       subtle: 'bg-asl-gray text-asl-dark-gray hover:bg-asl-gray/80',
       peach: 'bg-asl-dark-peach text-white hover:bg-asl-dark-peach/90 shadow-md hover:shadow-lg',
-      mint: 'bg-asl-mint text-asl-dark-gray hover:bg-asl-mint/90 shadow-md hover:shadow-lg',
+      mint: 'bg-asl-mint text-white hover:bg-asl-mint/90 shadow-md hover:shadow-lg',
     };
     
     const sizes = {

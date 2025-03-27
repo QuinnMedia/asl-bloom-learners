@@ -126,7 +126,7 @@
   }
 
   .gradient-peach {
-    @apply bg-gradient-to-r from-asl-peach to-asl-light-peach;
+    @apply bg-gradient-to-r from-asl-peach to-asl-dark-peach;
   }
 
   .gradient-mint {
