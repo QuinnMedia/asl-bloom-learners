@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -121,6 +120,7 @@ export default {
 			},
 			fontFamily: {
 				sans: [
+					'Nunito',
 					'-apple-system',
 					'BlinkMacSystemFont',
 					'San Francisco',
