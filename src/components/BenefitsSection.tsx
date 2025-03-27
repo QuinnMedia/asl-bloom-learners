@@ -62,7 +62,7 @@ const benefits = [
       </svg>
     ),
     title: 'Flexible Learning',
-    description: 'Study wherever, whenever—it's learning on your terms, fitting into your busy schedule.',
+    description: "Study wherever, whenever—it's learning on your terms, fitting into your busy schedule.",
     color: 'bg-asl-mint/10',
   },
 ];
