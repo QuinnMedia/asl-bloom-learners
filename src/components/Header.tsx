@@ -26,8 +26,8 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
-          <div className="text-2xl font-bold bg-clip-text text-transparent gradient-blue mr-2">ASL</div>
-          <div className="text-2xl font-bold bg-clip-text text-transparent gradient-peach">Bloom</div>
+          <div className="text-2xl font-bold text-asl-blue mr-2">ASL</div>
+          <div className="text-2xl font-bold text-asl-dark-peach">Bloom</div>
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">
@@ -40,7 +40,7 @@ const Header: React.FC = () => {
         <div className="flex items-center space-x-4">
           <Button 
             size="sm" 
-            variant="primary"
+            variant="peach" 
             className="hover:scale-105 transition-transform"
           >
             Get Started

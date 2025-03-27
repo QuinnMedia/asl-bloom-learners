@@ -113,7 +113,7 @@ const BenefitsSection: React.FC = () => {
         <ScrollReveal animation="fade-in" delay={600}>
           <div className="mt-16 text-center">
             <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg max-w-3xl mx-auto border border-gray-100">
-              <svg className="text-asl-peach h-12 w-12 mx-auto mb-4 opacity-20" fill="currentColor" viewBox="0 0 24 24">
+              <svg className="text-asl-dark-peach h-12 w-12 mx-auto mb-4 opacity-20" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
               <p className="text-lg md:text-xl text-gray-700 mb-6">
@@ -122,7 +122,7 @@ const BenefitsSection: React.FC = () => {
               <div className="flex items-center justify-center">
                 <div className="h-10 w-10 rounded-full bg-asl-gray flex items-center justify-center">
                   <svg className="h-5 w-5 text-asl-dark-gray" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 016 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                 </div>
                 <div className="ml-3 text-left">
@@ -138,7 +138,7 @@ const BenefitsSection: React.FC = () => {
           <div className="mt-16 text-center">
             <Button 
               size="lg" 
-              variant="primary"
+              variant="peach"
               className="hover:scale-105 transition-transform"
             >
               Start Signing Now
