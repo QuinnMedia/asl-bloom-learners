@@ -1,4 +1,5 @@
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -136,6 +137,49 @@
   .wave-pattern {
     background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='pattern' width='100' height='30' patternUnits='userSpaceOnUse'%3E%3Cpath d='M0 10 Q 15 20, 30 10 T 60 10 T 90 10 T 120 10' stroke='rgba(58, 134, 255, 0.05)' fill='none' stroke-width='2'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23pattern)'/%3E%3C/svg%3E");
   }
+
+  /* Clear, consistent focus states - Don't Make Me Think principle */
+  .focus-visible {
+    @apply outline-none ring-2 ring-asl-blue ring-offset-2;
+  }
+
+  /* Intuitive interactive elements - Don't Make Me Think principle */
+  .interactive {
+    @apply cursor-pointer hover:brightness-95 active:brightness-90 transition-[filter];
+  }
+}
+
+/* Prefers-reduced-motion media query implementation */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.001s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001s !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-fade-in,
+  .animate-fade-in-left,
+  .animate-fade-in-right,
+  .animate-float,
+  .animate-pulse-soft,
+  .animate-accordion-down,
+  .animate-accordion-up {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* Remove parallax and background movement effects */
+  .wave-pattern {
+    background-attachment: scroll !important;
+  }
+
+  /* Ensure transitions are disabled for all hover states */
+  button:hover, a:hover, .hover\:scale-105:hover {
+    transform: none !important;
+    transition: none !important;
+  }
 }
 
 .blur-load {
@@ -151,3 +195,32 @@
   opacity: 0;
   transition: opacity 200ms ease-in-out;
 }
+
+/* Ensure text links are obviously clickable - Don't Make Me Think principle */
+a:not(.btn):not([role="button"]) {
+  @apply text-asl-dark-peach underline underline-offset-2 font-medium;
+}
+
+/* Ensure buttons look obviously clickable - Don't Make Me Think principle */
+button, 
+.btn, 
+[role="button"] {
+  @apply cursor-pointer;
+}
+
+/* Consistent visual hierarchy - Don't Make Me Think principle */
+.section-title {
+  @apply text-center font-bold mb-6;
+}
+
+.section-description {
+  @apply text-center text-gray-600 max-w-3xl mx-auto mb-12;
+}
+
+/* Clear visual feedback for form elements - Don't Make Me Think principle */
+input, 
+select, 
+textarea {
+  @apply border-2 rounded-md px-4 py-2 w-full focus:border-asl-blue focus:ring-1 focus:ring-asl-blue focus:outline-none;
+}
+
