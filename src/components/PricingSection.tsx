@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ScrollReveal from './ScrollReveal';
 import Button from './Button';
@@ -15,7 +14,7 @@ const PricingSection: React.FC = () => {
         <div className="grid md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-5">
             <ScrollReveal>
-              <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-asl-blue rounded-full text-sm font-medium mb-4">
+              <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-black rounded-full text-sm font-medium mb-4">
                 Why Choose ASL Bloom
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
