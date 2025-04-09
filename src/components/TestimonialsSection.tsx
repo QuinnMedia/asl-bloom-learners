@@ -15,8 +15,8 @@ const TestimonialsSection: React.FC = () => {
         <ScrollReveal>
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-asl-blue rounded-full text-sm font-medium mb-4">
-                Why Choose ASL Bloom
+              <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-black rounded-full text-sm font-medium mb-4">
+                What Our Users Are Saying
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Trusted by Learners Worldwide

@@ -62,9 +62,9 @@ const IdentificationSection: React.FC = () => {
                 <div className="absolute -bottom-5 -right-5 w-full h-full bg-asl-blue/20 rounded-3xl transform -rotate-2"></div>
                 <div className="relative glass-card rounded-3xl overflow-hidden shadow-xl p-1">
                   <img 
-                    src="/placeholder.svg" 
-                    alt="Person using sign language" 
-                    className="w-full h-full object-cover rounded-2xl"
+                    src="/lovable-uploads/bfc5894b-e82e-41bf-ab47-6c6e4124518c.png" 
+                    alt="ASL Bloom app interface showing vocabulary categories and learning progress" 
+                    className="w-full h-full object-contain rounded-2xl"
                     loading="lazy"
                   />
                 </div>
@@ -74,8 +74,8 @@ const IdentificationSection: React.FC = () => {
           
           <div className="md:col-span-7 space-y-8">
             <ScrollReveal>
-              <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-asl-blue rounded-full text-sm font-medium mb-4">
-                Why Choose ASL Bloom
+              <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-black rounded-full text-sm font-medium mb-4">
+                Is This You?
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 We built ASL Bloom for you
