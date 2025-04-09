@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import Button from './Button';
 import { cn } from '@/lib/utils';
@@ -38,10 +37,13 @@ const Header: React.FC = () => {
       )}
     >
       <div className="container mx-auto flex items-center justify-between">
-        {/* Logo - Clear and prominent for brand recognition */}
+        {/* Logo with uploaded image */}
         <a href="#" className="flex items-center no-underline" aria-label="ASL Bloom Home">
-          <div className="text-2xl font-bold text-asl-blue mr-2">ASL</div>
-          <div className="text-2xl font-bold text-asl-dark-peach">Bloom</div>
+          <img 
+            src="/lovable-uploads/dcb53618-e82a-454e-ad32-4a8db2b44520.png" 
+            alt="ASL Bloom Logo" 
+            className="h-10 mr-2"
+          />
         </a>
         
         {/* Desktop Navigation - Clear, concise labels */}

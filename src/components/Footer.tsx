@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { cn } from '@/lib/utils';
 
@@ -9,8 +8,11 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-10">
           <div className="md:col-span-1">
             <div className="flex items-center mb-5">
-              <div className="text-2xl font-bold bg-clip-text text-transparent gradient-blue mr-2">ASL</div>
-              <div className="text-2xl font-bold bg-clip-text text-transparent gradient-peach">Bloom</div>
+              <img 
+                src="/lovable-uploads/dcb53618-e82a-454e-ad32-4a8db2b44520.png" 
+                alt="ASL Bloom Logo" 
+                className="h-10 mr-2"
+              />
             </div>
             <p className="text-gray-600 mb-6">
               Your fun, beginner friendly path to mastering American Sign Language.
