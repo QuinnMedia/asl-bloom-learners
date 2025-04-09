@@ -75,7 +75,7 @@ const IdentificationSection: React.FC = () => {
           <div className="md:col-span-7 space-y-8">
             <ScrollReveal>
               <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-asl-blue rounded-full text-sm font-medium mb-4">
-                Is This You?
+                Why Choose ASL Bloom
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 We built ASL Bloom for you

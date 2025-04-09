@@ -16,10 +16,10 @@ const PricingSection: React.FC = () => {
           <div className="md:col-span-5">
             <ScrollReveal>
               <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-asl-blue rounded-full text-sm font-medium mb-4">
-                Start Your Journey
+                Why Choose ASL Bloom
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Start for Free
+                Start Your Learning Journey
               </h2>
               <p className="text-lg text-gray-600 mb-8">
                 Everyone deserves access to sign language education. That's why we offer:
@@ -95,7 +95,7 @@ const PricingSection: React.FC = () => {
               <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
                 <div className="p-6 md:p-8 bg-gradient-to-r from-asl-blue to-asl-blue/80 text-white">
                   <div className="inline-block px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium mb-4">
-                    Premium
+                    Why Choose ASL Bloom
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold mb-2">ASL Bloom Advocate</h3>
                   <p className="opacity-90">Upgrade for exclusive benefits and support the Deaf community</p>

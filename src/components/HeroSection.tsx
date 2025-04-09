@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Button from './Button';
 import ScrollReveal from './ScrollReveal';
@@ -17,7 +16,7 @@ const HeroSection: React.FC = () => {
           <div className="md:col-span-7 space-y-8">
             <ScrollReveal animation="fade-in">
               <div className="inline-block px-4 py-1.5 bg-asl-blue/10 text-asl-blue rounded-full text-sm font-medium mb-4">
-                American Sign Language for Everyone
+                Why Choose ASL Bloom
               </div>
             </ScrollReveal>
             
